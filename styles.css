@@ -1,9 +1,5 @@
 body {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
   margin: 0px;
-  padding: 0px;
   color: #c6d0f5;
   background-color: #302d41;
   font-family: "roboto";
@@ -39,10 +35,41 @@ ul {
 .headlinks {
   display: flex;
   align-items: center;
-  padding-right: 32px;
+  padding-right: 16px;
 }
 
 .hl {
   margin: 8px;
   padding: 8px;
+}
+
+.first {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+}
+
+.text-and-button {
+  padding: 16px;
+}
+
+.button1 {
+  background-color: #1e66f5;
+  color: #cdf;
+  border: none;
+  border-radius: 7px;
+  padding: 6px;
+  padding-right: 16px;
+  padding-left: 16px;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.subtext1 {
+  color: #a1a8c9;
+}
+
+.fire {
+  width: 250px;
+  height: 250px;
 }
