@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0px;
+  padding: 0px;
+  color: #c6d0f5;
+  background-color: #302d41;
+  font-family: "roboto";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #181825;
+  margin: 0px;
+  width: 100%;
+  padding: 16px;
+}
+
+.h-logo {
+  display: flex;
+  align-items: center;
+  color: #87b0f9;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.headlinks {
+  display: flex;
+  align-items: center;
+  padding-right: 32px;
+}
+
+.hl {
+  margin: 8px;
+  padding: 8px;
+}
