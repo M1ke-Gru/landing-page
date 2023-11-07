@@ -4,7 +4,7 @@ body {
   color: #c6d0f5;
   background-color: #302d41;
   font-family: "roboto";
-  font-size: 22px;
+  font-size: 18px;
 }
 
 a {
@@ -17,7 +17,7 @@ ul {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .header {
