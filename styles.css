@@ -1,8 +1,10 @@
 body {
   margin: 0px;
+  padding: 0px;
   color: #c6d0f5;
   background-color: #302d41;
   font-family: "roboto";
+  font-size: 18px;
 }
 
 a {
@@ -19,7 +21,6 @@ ul {
   justify-content: space-between;
   background-color: #181825;
   margin: 0px;
-  width: 100%;
   padding: 16px;
 }
 
@@ -27,7 +28,7 @@ ul {
   display: flex;
   align-items: center;
   color: #87b0f9;
-  padding: 8px;
+  padding: 16px;
   font-weight: bold;
   font-size: 24px;
 }
@@ -35,7 +36,7 @@ ul {
 .headlinks {
   display: flex;
   align-items: center;
-  padding-right: 16px;
+  padding-right: 8px;
 }
 
 .hl {
@@ -45,13 +46,17 @@ ul {
 
 .first {
   display: flex;
-  padding: 12px;
+  padding: 20px;
   align-items: center;
   justify-content: space-between;
 }
 
 .text-and-button {
   padding: 16px;
+}
+
+.fh1 {
+  margin: 0;
 }
 
 .button1 {
@@ -73,4 +78,32 @@ ul {
 .fire {
   width: 250px;
   height: 250px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  color: #4c4f69;
+  background-color: #dce0e8;
+}
+
+.people {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.picon {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  align-items: center;
+}
+
+.person {
+  width: 200px;
+  filter: invert (50%);
 }
