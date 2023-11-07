@@ -4,7 +4,7 @@ body {
   color: #c6d0f5;
   background-color: #302d41;
   font-family: "roboto";
-  font-size: 18px;
+  font-size: 22px;
 }
 
 a {
@@ -14,6 +14,10 @@ a {
 
 ul {
   list-style: none;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 .header {
@@ -49,6 +53,7 @@ ul {
   padding: 20px;
   align-items: center;
   justify-content: space-between;
+  height: 35vh;
 }
 
 .text-and-button {
@@ -101,9 +106,68 @@ ul {
   flex-direction: column;
   margin: 16px;
   align-items: center;
+  width: 250px;
+  text-align: center;
 }
 
 .person {
   width: 200px;
   filter: invert (50%);
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  padding: 56px;
+  color: #4c4f69;
+  background-color: #96cdfb;
+}
+
+.quote {
+  font-size: 40px;
+}
+
+.author {
+  font-weight: bold;
+  text-align: right;
+  font-size: 28px;
+}
+
+.fourth {
+  display: flex;
+  padding: 32px;
+  padding-right: 54px;
+  padding-left: 54px;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+
+.clickme {
+  border-radius: 7px;
+  padding: 16px;
+  padding-left: 28px;
+  padding-right: 28px;
+  font-size: 30px;
+  border-color: white;
+  background: none;
+  border: 2px solid #cdd0f5;
+  color: #cdd0f5;
+}
+
+.clickme:hover {
+  background-color: #313244;
+}
+
+.clickme:active {
+  border-color: #51576d;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #51576d;
+  background-color: #181825;
+  height: 7vh;
 }
